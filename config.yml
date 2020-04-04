@@ -1,0 +1,31 @@
+shops:
+  galaxus:
+    name: Galaxus
+    check_func: check_galaxus
+  baechli:
+    name: Bächli Bergsport
+    check_func: check_baechli
+  intersport:
+    name: Intersport Achermann
+    check_func: check_intersport
+  primal:
+    name: Primal
+    check_func: check_primal
+  transa:
+    name: Transa
+    check_func: check_transa
+
+products:
+  - name: Schneeschuh MSR Lightning Ascent W 22
+    shops:
+      galaxus: https://www.galaxus.ch/de/s3/product/msr-lightning-ascent-2205-schneeschuhe-11852228
+      baechli: https://www.baechli-bergsport.ch/Lightning-Ascent-22-W-MSR-Schneeschuhe-De-2.htm
+      intersport: https://www.achermannsport.ch/produkt/msr-damen-ligtning-ascent-22-women-raspberry-und-gunmetal/
+      primal: https://primal.ch/online-shop/outdoor/winter/schneeschuhe/msr-lightning-ascent-w-22-raspberry-2020
+      transa: https://www.transa.ch/p/msr-lightning-ascent-w-22-173317-001/
+  - name: Schneeschuh MSR Lightning Ascent M 22
+    shops:
+      galaxus: https://www.galaxus.ch/de/s3/product/msr-lightning-ascent-2205-schneeschuhe-11852228
+      intersport: https://www.achermannsport.ch/produkt/msr-ligtning-ascent-22-black-und-cobalt-blue-kopie/
+      primal: https://primal.ch/online-shop/outdoor/winter/schneeschuhe/msr-lightning-ascent-m-22-cobalt-blue-2020
+      transa: https://www.transa.ch/p/msr-lightning-ascent-m22-135114-001001/
